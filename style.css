@@ -1,0 +1,72 @@
+*{background-color:#FFF5F5;
+}
+
+.toplabel{
+    background-color:#E2B4BD; 
+    height:60px;
+    margin:0px;
+    color:#742b1b;
+    font-size:30px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: bold;
+    width:100%;
+}
+.border:hover{
+    border: 1px solid rgb(82, 47, 47);
+}
+.heading{
+    padding-top: 30px;
+    font-size: 30px;
+    color:#4A4A4A;
+    padding-bottom: 30px;
+    margin-left: 150px;
+}
+.content{
+    font-size: 23px;
+    padding-bottom:30px; 
+    margin-left: 150px;                        
+}
+#center{
+    margin-left: 190px;
+}
+#balance{
+    height:25px;
+    background-color:#F7D6D0;
+    
+}  
+.expenses{
+    font-size: 20px;
+    padding-bottom: 35px; 
+    margin-left: 150px;
+    
+}
+.box{
+    height:25px;
+    background-color:#F7D6D0;
+    text-align: center;
+}
+.btn{
+    background-color:#F7D6D0;
+    color:#200b06;
+    display: block;
+    margin: 150px;
+    margin-top:10px;
+    padding: 5px;
+}
+#addBtn{
+    padding: 5px;
+    margin-bottom: 70px;
+}
+#addMoney{
+    height:25px;
+    background-color:#F7D6D0;
+}
+.moneybtn{
+    background-color:#F7D6D0;
+    color:#200b06;
+    display: block;
+    margin: 150px;
+    margin-top:10px;
+    padding: 5px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart student Expense Analyser</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="toplabel border">Smart Student Expense Analyser </div>
+    <h2 class="heading">----------Student Expenses----------</h2>
+    <h3 class="content">Total Balance(in Rs): <input id="balance"  type="text" id="totalBalance" ></h3>
+    <h3 class="content"> Add Money(in Rs): <input id="addMoney" type="text" id="addBalance" ></h3>
+    <button class="moneybtn" id="addBtn">click to add</button>
+    <h3 class="content" id="center">---Expenditures---</h3>   
+    <h3 class="expenses">Category: <input class="box" type="text" id="category" ></h3>  
+    <h3 class="expenses">Amount: <input class="box" type="text" id="amount" ></h3>
+    <h3 class="expenses">Date: <input class="box" type="date" id="date" ></h3>
+    <button class="btn">click to submit</button>
+    <div id="expenseList"></div>
+    <div id="totalAmount"></div>
+    <div id="finalBalance"></div>
+    <div id ="initialBalance"></div>
+    <div id ="highestExpense"></div>
+<script src="script.js"></script>
+</body>
+</html>
